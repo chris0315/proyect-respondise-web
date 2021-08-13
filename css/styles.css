@@ -1,0 +1,30 @@
+:root {
+    --font-sans: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --size-300: 300;
+    --size-400: 400;
+    --size-500: 500;
+    --size-700: 700;
+    --background: #E5E5E5;
+    --linear-gradient: 207.8deg, #201E1C 16.69%, #F7931A 100%;
+    --bitcoin-orage: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #FFE9D5;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-blackplus1: #282623;
+    --gray: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-sans);
+}
