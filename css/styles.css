@@ -9,7 +9,7 @@
     --linear-gradient: 207.8deg, #201E1C 16.69%, #F7931A 100%;
     --bitcoin-orage: #F7931A;
     --soft-orange: #FFE9D5;
-    --secondary-blue: #FFE9D5;
+    --secondary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --warm-blackplus1: #282623;
@@ -235,6 +235,7 @@ main {
     text-align: center;
     color: var(--warm-black);
     width: 90%;
+    min-width: 200px;
     height: 3.1rem;
     padding: 1rem;
     margin-top: 1.7rem;
@@ -252,4 +253,12 @@ main {
 .table-updateDate p {
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+.secondary-color h3 {
+    color: var(--secondary-blue);
+}
+
+.tableContainer .bg-secundary {
+    background-color: var(--soft-blue);
 }
