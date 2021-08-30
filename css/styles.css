@@ -548,3 +548,32 @@ main {
     background-position: center;
     background-size: cover;
 }
+
+footer {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--bitcoin-orage);
+}
+
+.footer__left ul {
+    list-style: none;
+}
+
+.footer__left li {
+    margin-bottom: 8px;
+}
+
+.footer__left a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--just-white);
+}
+
+.footer__right img {
+    height: 5rem;
+}
