@@ -1,0 +1,30 @@
+.header--title--conteiner .heade--button:hover {
+    box-shadow: 0px 0px 10px 5px #f7941a7e;
+    transition: box-shadow 0.5s ease;
+}
+
+.plans--container--slider {
+    width: 70%;
+}
+
+.product--cards--container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 170px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.product--cards--container .product--detail-card {
+    margin: 0;
+}
+
+.exchange-tablesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.9s ease;
+}
